@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Site</title>
+</head>
+<body>
+    <h1>Movie Review Central</h1> 
+
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="#LatestReviews">Latest Reviews</a></li>
+            <li><a href="#TopRated">Top Rated</a></li>
+            <li><a href="#ContactUs">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!--Movie Review -->
+    <div id="LatestReviews">
+        <h2>Latest Reviews</h2>
+        <div id="movie1">
+            <h3>Ready Player One</h3>
+            <img src="img/Ready_Player_One_(film).png" alt="poster1">
+            <p>The film is set in 2045, where much of humanity uses the OASIS, a virtual reality simulation, to escape the real world. A teenage orphan finds clues to a contest that promises ownership of the OASIS to the winner, and he and his allies try to complete it before an evil corporation can do so. </p>
+            <video  controls>
+                <source src="video/" type="video/mp4">
+            </video> <br>
+            <a href="">Read full review</a>
+        </div>
+    </div>
+
+    <!--Rated Section -->
+    <div id="TopRated">
+        <h2>Top Rated Movies</h2>
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ready Player One</td>
+                <td>2018</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Action</td>
+            </tr>
+        </table>
+
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">Upcoming Movies</a></li>
+                <li><a href="#">Interviews with Directors</a></li>
+            </ul>
+        </aside>
+       
+        
+    </div>
+
+    <!-- Contact Information section -->
+    <div id="ContactUs">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email"><br><br>
+
+
+        <label for="genre">Favorite Movie Genre:</label>
+        <select name="" id="genre">
+            <option value="action">Action</option>
+            <option value="horror">Horror</option>
+            <option value="comedy">Comedy</option>
+        </select><br>
+
+        <label for="message">Message:</label>
+        <textarea name="" id="message" cols="20" rows="3"></textarea><br>
+
+         <input type="checkbox" name="subscribe" id="subscribe">
+         <label for="message">Subscribe to Newsletter</label><br>
+
+         <input type="submit" name="" id="submit" value="Send"> <br>
+
+        
+    </div>
+
+
+     <!-- Footer section -->
+     <footer>
+        &copy; 2024 Movie Review Central
+    </footer>
+        
+</body>
+</html>
